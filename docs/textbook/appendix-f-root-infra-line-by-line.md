@@ -26,11 +26,11 @@ No language-level imports are declared in this file. It either defines configura
 # --- Database ---
 POSTGRES_DB=banking
 POSTGRES_USER=banking
-POSTGRES_PASSWORD=banking
+POSTGRES_PASSWORD=changeme
 # Host port is 5433 (mapped to the container's 5432) to avoid clashing with a local Postgres.
 DB_URL=jdbc:postgresql://localhost:5433/banking
 DB_USERNAME=banking
-DB_PASSWORD=banking
+DB_PASSWORD=changeme
 
 # --- Redis ---
 REDIS_HOST=localhost
@@ -61,11 +61,11 @@ VITE_API_BASE_URL=http://localhost:8080
 3. <code># --- Database ---</code> - Comment/documentation. The compiler or interpreter ignores it at runtime, but it records intent for maintainers.
 4. <code>POSTGRES_DB=banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
 5. <code>POSTGRES_USER=banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
-6. <code>POSTGRES_PASSWORD=banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
+6. <code>POSTGRES_PASSWORD</code> = <code>changeme</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
 7. <code># Host port is 5433 (mapped to the container&#x27;s 5432) to avoid clashing with a local Postgres.</code> - Comment/documentation. The compiler or interpreter ignores it at runtime, but it records intent for maintainers.
 8. <code>DB_URL=jdbc:postgresql://localhost:5433/banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
 9. <code>DB_USERNAME=banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
-10. <code>DB_PASSWORD=banking</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
+10. <code>DB_PASSWORD</code> = <code>changeme</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
 11. <em>blank line</em> - Blank separator. It has no runtime behavior; it improves human parsing and keeps related code grouped.
 12. <code># --- Redis ---</code> - Comment/documentation. The compiler or interpreter ignores it at runtime, but it records intent for maintainers.
 13. <code>REDIS_HOST=localhost</code> - Environment-template line. Shells or Docker Compose read assignments from real `.env` files, while this example documents expected keys.
