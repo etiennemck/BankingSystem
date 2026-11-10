@@ -32,7 +32,6 @@ Excluded: generated or downloaded output such as `frontend/node_modules/`, `fron
 - [Appendix C: Backend Cards, Payments, and Loans](appendix-c-backend-products-line-by-line.md)
 - [Appendix D: Backend Resources, Tests, Maven, and Docker](appendix-d-backend-resources-tests-line-by-line.md)
 - [Appendix E: Frontend Source and Assets](appendix-e-frontend-source-line-by-line.md)
-- [Appendix F: Root Infrastructure and Project Documents](appendix-f-root-infra-line-by-line.md)
 
 ## File Coverage Report
 
@@ -42,5 +41,5 @@ Excluded: generated or downloaded output such as `frontend/node_modules/`, `fron
 - Backend build/support files: 7
 - Frontend source/static files: 29
 - Frontend build/config files: 11
-- Root infrastructure/docs files: 6
-- Total covered files: 200
+- Root infrastructure/docs files: 0 (Appendix F removed)
+- Total covered files: 194
