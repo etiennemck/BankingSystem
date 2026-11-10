@@ -11,6 +11,8 @@ correct money handling (double-entry ledger), security, and a real deployment.
 
 See [`PROJECT_PLAN.md`](./PROJECT_PLAN.md) for the full architecture and phased roadmap.
 
+Contributors without write access to this repository can fork it, push branches to their fork, and open pull requests against `main`.
+
 ## Project status
 
 - **Phase 0 — Scaffold & infra ✅**
